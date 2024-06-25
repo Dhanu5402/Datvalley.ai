@@ -1,1 +1,27 @@
+{
+    "name": "Source",
+    "actions": [
+        {
+            "name": "SourceAction",
+            "actionTypeId": {
+                "category": "Source",
+                "owner": "ThirdParty",
+                "provider": "GitHub",
+                "version": "1"
+            },
+            "configuration": {
+                "Owner": "my-github-account",
+                "Repo": "my-repo",
+                "Branch": "main",
+                "OAuthToken": "my-oauth-token"
+            },
+            "outputArtifacts": [
+                {
+                    "name": "SourceArtifact"
+                }
+            ],
+            "runOrder": 1
+        }
+    ]
+}
   
